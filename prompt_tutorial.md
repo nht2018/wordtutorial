@@ -35,8 +35,7 @@
 ## 从 PDF 样条出发的完整工作流 Prompt
 
 如果你只考虑“从 PDF 样条出发”这一条路线，可以直接使用下面这段完整 prompt。  
-它把本次对话中真正需要说明的要求合并到了一起，适合直接复用。
-首先请安装一个agent客户端，比如claude code, codex等等；安装python，事实上还会用到一些python包，但可以让agent自己安装。
+首先请安装一个AI agent客户端，比如claude code, codex等等；安装python，事实上还会用到一些python包，但可以让agent自己安装。
 然后在PLAN 模式（非常关键）下输入以下prompt。
 
 ```text
