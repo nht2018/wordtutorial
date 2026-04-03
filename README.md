@@ -1,7 +1,7 @@
 
 # 脚本使用说明
 
-我们准备了本目录中的脚本和规范文件用于将 Markdown 条目生成成 Word 文档。主要脚本和规范文件包括：
+本目录中的脚本和规范文件用于将 Markdown 条目生成成 Word 文档。主要脚本和规范文件包括：
 
 - `create_entry.py`
 - `build_all_docx.sh`
