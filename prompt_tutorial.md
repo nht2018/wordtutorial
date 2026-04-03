@@ -89,7 +89,7 @@
 [Image #1] 有一些小问题:1.行间公式下半部分看不见,被截掉了 2.\cdot符号看起来好大,跟我通常latex中显示的不一样。请调整。
 ```
 
-目前 claude code发布了GUI 功能，安装了word MCP 后可以自动完成这一步视觉检查微调的工作，并通过循环的工作流完成自动排版。但依然建议手动检查，以确保排版效果符合预期，因为不同电脑（Mac，Windows）以及不同office软件（Microsoft Word，WPS Word）的显示效果可能不同。
+目前 claude code发布了GUI 功能，安装了word MCP 后可以自动完成这一步视觉检查微调的工作，并通过循环的工作流完成自动排版。但依然建议手动检查，以确保排版效果符合预期；另一个要注意的点是不同操作系统（Mac，Windows）以及不同office软件（Microsoft Word，WPS Word）的显示效果可能不同。
 
 
 - 把markdown 公式转换成word 公式对于人类来说可能很难，但对于agent来说很容易。我们不需要很仔细地告诉agent该怎么做，它自己能搞定。
