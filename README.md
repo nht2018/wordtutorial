@@ -1,10 +1,11 @@
 # 脚本使用说明
 
-本目录主要包含 3 个文件：
+本目录主要包含：
 
 - `create_entry.py`
 - `build_all_docx.sh`
 - `markdown_rule.md`
+- `prompt_tutorial.md` 
 
 本目录中的脚本和规范文件用于将 Markdown 条目生成成 Word 文档。
 
@@ -77,4 +78,9 @@ bash build_all_docx.sh
 1. 先按 `markdown_rule.md` 编写或修改 `contents/*.md`
 2. 先用 `create_entry.py` 单独生成一个条目，检查格式是否正确
 3. 如果要批量生成项目根目录 `contents/` 下的全部条目，再运行 `build_all_docx.sh`
+
+
+### `prompt_tutorial.md`
+
+以后还有类似的写word的任务怎么办？可以参考 `prompt_tutorial.md` 中的教程生成脚本，将排版和内容分离，形成可复用的工作流。
 
